@@ -2,7 +2,7 @@ public class Kings<T> implements Deque<T>{
     //instance vars
     DLLNode<T> _front, _end;
     int _size;
-
+    //include runtime 
     //constructor
     public Kings(){
 	_front = _end = null;
@@ -74,7 +74,7 @@ public class Kings<T> implements Deque<T>{
       return null;
     }
 
-    public String toString(){
+    public String toString(){//fix toString() why is it not working look at addLast
       String retString = "";
       DLLNode<T> temp = _front;
       while(temp != null){
@@ -97,7 +97,6 @@ public class Kings<T> implements Deque<T>{
       System.out.println(rohan.removeFirst());
       System.out.println(rohan.removeLast());
 
-      System.out.println(rohan);
     }//end of main method
 
 }//end of class Kings
