@@ -29,4 +29,4 @@ Done
 
 ### Development Plan
 
-WE ARE DOING SINGLY LINKED NODES
+We are going to be implementing singly-linked nodes because using singly-linked nodes lets us enqueue/dequeue in constant time, as well as allowing us to have pointers to the front and end, which will be useful in adding and removing from the different ends of this variation of a Queue. We are not using doubly-linked nodes because we don't see any use for linkage in the other direction, and it is best to keep this as simple as possible when we first implement the Deque interface.
