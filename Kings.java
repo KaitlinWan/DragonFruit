@@ -2,7 +2,7 @@ public class Kings<T> implements Deque<T>{
     //instance vars
     DLLNode<T> _front, _end;
     int _size;
-    //include runtime 
+    //include runtime
     //constructor
     public Kings(){
 	_front = _end = null;
@@ -45,6 +45,7 @@ public class Kings<T> implements Deque<T>{
         _end = _front;
       }
       else{
+        _end.setNext(cat);
         cat.setPrev(_end);
         _end = cat;
       }
@@ -74,7 +75,8 @@ public class Kings<T> implements Deque<T>{
       return null;
     }
 
-    public String toString(){//fix toString() why is it not working look at addLast
+    public String toString(){
+      //fix toString() why is it not working look at addLast
       String retString = "";
       DLLNode<T> temp = _front;
       while(temp != null){
@@ -92,6 +94,7 @@ public class Kings<T> implements Deque<T>{
       rohan.addFirst("dog");
       rohan.addLast("duck");
       rohan.addLast("cow");
+
       System.out.println(rohan);
 
       System.out.println(rohan.removeFirst());
