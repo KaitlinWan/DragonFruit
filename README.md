@@ -15,9 +15,8 @@ Lab #2
       * isEmpty()
       * size()
     * accessors:
-      * getFirst()
-      * getLast()
       * peekFirst()
+      * peekLast()
     * add methods:
       * addFirst()
       * addLast()
@@ -31,7 +30,7 @@ Lab #2
 
 ## Development Plan
 
-We are going to be implementing singly-linked nodes because using singly-linked nodes lets us enqueue/dequeue in constant time, as well as allowing us to have pointers to the front and end, which will be useful in adding and removing from the different ends of this variation of a Queue. We are not using doubly-linked nodes because we don't see any use for linkage in the other direction, and it is best to keep this as simple as possible when we first implement the Deque interface.
+We are going to be implementing doubly-linked nodes because using doubly-linked nodes lets us enqueue/dequeue in constant time, as well as allowing us to have pointers to the front and end, which will be useful in adding and removing from the different ends of this variation of a Queue. We are using doubly linked nodes because we can remove at the end in constant time but you cannot do that with singly-linked nodes. 
 
 We are going to follow our prioritized list in implementing these methods into a class that implements Deque, and then make sure we adhere to the API specifications.
 
