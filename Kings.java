@@ -74,8 +74,30 @@ public class Kings<T> implements Deque<T>{
       return null;
     }
 
+    public String toString(){
+      String retString = "";
+      DLLNode<T> temp = _front;
+      while(temp != null){
+        retString += temp + " ";
+        temp = temp.getNext();
+      }
+      return retString;
+    }
+
 
     public static void main(String[] args){
+      Kings<String> rohan = new Kings<>();
+
+      rohan.addFirst("cat");
+      rohan.addFirst("dog");
+      rohan.addLast("duck");
+      rohan.addLast("cow");
+      System.out.println(rohan);
+
+      System.out.println(rohan.removeFirst());
+      System.out.println(rohan.removeLast());
+
+      System.out.println(rohan);
     }//end of main method
 
 }//end of class Kings
