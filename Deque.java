@@ -1,26 +1,22 @@
-public interface Deque{
+public interface Deque<T>{
 
-    //public boolean isEmpty();
-    
-    //public int size();
-	
-    //public String getFirst();
+    public boolean isEmpty();
 
-    //public String getLast();
-	
-    //public String peekFirst();
+    public int size();
 
-    //public String peekLast();
+    public T peekFirst();
 
-    //public void addFirst();
+    public T peekLast();
 
-    //public void addLast();
+    public void addFirst(T value);
 
-    //public String removeFirst();
+    public void addLast(T value);
 
-    //public String removeLast();
-    
-	
+    public T removeFirst();
+
+    public T removeLast();
+
+
 
 
 }//end of Deque
