@@ -5,7 +5,7 @@ Rohan Ahammed, Kaitlin Wan, Jessica Wu
 Lab #2
 
 
-### To-Do List
+## To-Do List
 1. Configure all GitHub repos
 
 1. Create interface Deque
@@ -29,7 +29,7 @@ Lab #2
 1. Start implementing these methods one by one and testing.
 1. Check API to see if there are other specifications that need to be followed
 
-### Development Plan
+## Development Plan
 
 We are going to be implementing singly-linked nodes because using singly-linked nodes lets us enqueue/dequeue in constant time, as well as allowing us to have pointers to the front and end, which will be useful in adding and removing from the different ends of this variation of a Queue. We are not using doubly-linked nodes because we don't see any use for linkage in the other direction, and it is best to keep this as simple as possible when we first implement the Deque interface.
 
