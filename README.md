@@ -25,7 +25,9 @@ add methods:
 - peekFirst()
 - peekLast()
 
-Done
+4) Set up inner-container in and the implementing class itself
+5) Start implementing these methods one by one and testing.
+6) Check API to see if there are other specifications that need to be followed
 
 ### Development Plan
 
