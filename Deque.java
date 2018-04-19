@@ -1,26 +1,26 @@
 public interface Deque{
 
-    public boolean isEmpty();
+    //public boolean isEmpty();
     
-    public int size();
+    //public int size();
 	
-    public String getFirst();
+    //public String getFirst();
 
-    public String getLast();
+    //public String getLast();
 	
-    public String peekFirst();
+    //public String peekFirst();
 
-    public String peekLast();
+    //public String peekLast();
 
-    public void addFirst();
+    //public void addFirst();
 
-    public void addLast();
+    //public void addLast();
 
-    public String removeFirst();
+    //public String removeFirst();
 
-    public String removeLast();
+    //public String removeLast();
     
 	
 
 
-}
+}//end of Deque
