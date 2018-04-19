@@ -1,4 +1,4 @@
-# Team Dragon_Fruit
+# Team DragonFruit
 
 Rohan Ahammed, Kaitlin Wan, Jessica Wu
 
