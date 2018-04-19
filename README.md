@@ -6,12 +6,12 @@ Lab #2
 
 
 ## To-Do List
-1. Configure all GitHub repos
+1. Configure all GitHub repos _**done**_
 
-1. Create interface Deque
+1. Create interface Deque _**done**_
 
-1. Prioritze methods in Deque
-    * Methods:
+1. Prioritze methods in Deque _**done**_
+    * Methods: 
       * isEmpty()
       * size()
     * accessors:
@@ -24,9 +24,10 @@ Lab #2
       * removeFirst()
       * removeLast()
 
-1. Set up inner-container in and the implementing class itself
+1. Set up inner-container in and the implementing class itself _**done**_
 1. Start implementing these methods one by one and testing.
 1. Check API to see if there are other specifications that need to be followed
+1. Throw Exceptions
 
 ## Development Plan
 
