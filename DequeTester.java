@@ -1,4 +1,4 @@
-public class DequeDriver{
+public class DequeTester{
     public static void main(String[]args){
 	Kings <String> T = new Kings<String>();
 	System.out.println("Is the deque empty? " + T.isEmpty()); //Expecting true;
