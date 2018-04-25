@@ -3,7 +3,7 @@ public class Kings<T> implements Deque<T>{
     //instance vars
     DLLNode<T> _front, _end;
     int _size;
-    //include runtime
+    
     //constructor
     public Kings(){
 	_front = _end = null;
@@ -15,22 +15,21 @@ public class Kings<T> implements Deque<T>{
 	return _size;
 	//O(1)
     }
+    
     public boolean isEmpty(){
 	return _size == 0;
 	//can also be done _front == null && _end == null;
 	//O(1)
-
     }
 
     public T peekFirst(){
 	return _front.getCargo();
 	//O(1)
-
     }
+    
     public T peekLast(){
 	return _end.getCargo();
 	//O(1)
-
     }
 
     public void addFirst(T value){
@@ -45,7 +44,6 @@ public class Kings<T> implements Deque<T>{
 	}
 	_size++;
       	//O(1)
-
     }
 
     public void addLast(T value){
@@ -61,7 +59,6 @@ public class Kings<T> implements Deque<T>{
 	}
 	_size++;
       	//O(1)
-
     }
 
     public T removeFirst(){
@@ -86,7 +83,6 @@ public class Kings<T> implements Deque<T>{
 	}
         throw new NoSuchElementException();
       	//O(1)
-
     }
 
     public String toString(){
@@ -99,9 +95,9 @@ public class Kings<T> implements Deque<T>{
 	return retString;
     }
 
-
     public static void main(String[] args){
 	Kings<String> rohan = new Kings<>();
+	
 	rohan.addFirst("cat");
 	rohan.addFirst("dog");
 	rohan.addLast("duck");
@@ -110,6 +106,7 @@ public class Kings<T> implements Deque<T>{
 	System.out.println("current Deque: " + rohan);
 
 	System.out.println("remove first (dog): " + rohan.removeFirst());
+	
 	System.out.println("remove last (cow): " +rohan.removeLast());
 
     }//end of main method
