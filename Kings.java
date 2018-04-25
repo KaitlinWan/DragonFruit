@@ -2,6 +2,7 @@ import java.util.*;;
 public class Kings<T> implements Deque<T>{
     //instance vars
     DLLNode<T> _front, _end;
+    //front is the head of the Deque, end is the tail
     int _size;
     
     //constructor
@@ -36,14 +37,14 @@ public class Kings<T> implements Deque<T>{
 	if (value == null){
 	    throw new NullPointerException();
 	}
-	DLLNode<T> cat = new DLLNode<>(value, null, null);
+	DLLNode<T> newNode = new DLLNode<>(value, null, null);
 	if(isEmpty()){
-	    _front = cat;
+	    _front = newNode;
 	    _end = _front;
 	}
 	else{
-	    cat.setNext(_front);
-	    _front = cat;
+	    newNode.setNext(_front);
+	    _front = newNode;
 	}
 	_size++;
       	//O(1)
@@ -52,16 +53,16 @@ public class Kings<T> implements Deque<T>{
     public void addLast(T value){
 	if (value == null){
 	    throw new NullPointerException();
-	}
-	DLLNode<T> cat = new DLLNode<>(value, null, null);
+	}	
+	DLLNode<T> newNode = new DLLNode<>(value, null, null);
 	if(isEmpty()){
-	    _front = cat;
+	    _front = newNode;
 	    _end = _front;
 	}
 	else{
-	    _end.setNext(cat);
-	    cat.setPrev(_end);
-	    _end = cat;
+	    _end.setNext(newNode);
+	    newNode.setPrev(_end);
+	    _end = newNode;
 	}
 	_size++;
       	//O(1)
