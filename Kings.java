@@ -33,6 +33,9 @@ public class Kings<T> implements Deque<T>{
     }
 
     public void addFirst(T value){
+	if (value == null){
+	    throw new NullPointerException();
+	}
 	DLLNode<T> cat = new DLLNode<>(value, null, null);
 	if(isEmpty()){
 	    _front = cat;
@@ -47,6 +50,9 @@ public class Kings<T> implements Deque<T>{
     }
 
     public void addLast(T value){
+	if (value == null){
+	    throw new NullPointerException();
+	}
 	DLLNode<T> cat = new DLLNode<>(value, null, null);
 	if(isEmpty()){
 	    _front = cat;

@@ -17,9 +17,11 @@ public interface Deque<T>{
     public T peekLast();
 
     //Inserts the specified element at the front of this deque
+    //Throws an exception if value is null
     public void addFirst(T value);
 
     //Inserts the specified element at the end of this deque
+    //Throws an exception if value is null
     public void addLast(T value);
 
     //Retrieves and removes the first element of this deque.
