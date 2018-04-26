@@ -36,3 +36,14 @@ We are going to be implementing doubly-linked nodes because using doubly-linked 
 We are going to follow our prioritized list in implementing these methods into a class that implements Deque, and then make sure we adhere to the API specifications.
 
 We decided to start with isEmpty() and size() first because these methods are the simplest to implement, and will not take more than 1 line of code each. Next, we put the accessor methods the next to be implemented because these, again, are very simple to implement. Next, we are doing peek methods because they are very similar to the previously defined accessor methods. Next, we're doing the add methods, and after that the remove methods because adding should be easier to work out than removing.
+
+## Method Detail
+
+## Changes After Review
+- Fixed white spacing, made sure it was consistent.
+- Included method detail in Deque.java and Kings.java
+- Included exceptions to prevent user from adding null to a Deque
+- Updated and reformatted README.md
+- Changed variable names in King.java to be more helpful in figuring out their purpose
+
+
