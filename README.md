@@ -11,10 +11,10 @@ Lab #2
 1. ~~Create interface Deque~~
 
 1. ~~Prioritze methods in Deque ~~
-    ~~* Methods:
-      * isEmpty()
-      * size()
-    * accessors:~~
+    ~~* Methods:~~
+    ~~* isEmpty()~~
+    ~~* size() ~~
+    ~~* accessors:~~
       * peekFirst()
       * peekLast()
    ~~* add methods:~~
@@ -26,8 +26,8 @@ Lab #2
 
 1. ~~Set up inner-container in and the implementing class itself~~
 1. ~~Start implementing these methods one by one and testing.~~
-1. ~~Check API to see if there are other specifications that need to be followed
-1. ~~Throw Exceptions
+1. ~~Check API to see if there are other specifications that need to be followed~~
+1. ~~Throw Exceptions~~
 
 ## Development Plan
 
