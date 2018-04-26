@@ -10,17 +10,17 @@ Lab #2
 
 1. ~~Create interface Deque~~
 
-1. ~~Prioritze methods in Deque ~~
-    ~~* Methods:~~
-    ~~* isEmpty()~~
-    ~~* size() ~~
-    ~~* accessors:~~
+1. ~~Prioritize methods in Deque ~~
+   * Methods:
+    * isEmpty()
+    * size()
+    * accessors:
       * peekFirst()
       * peekLast()
-   ~~* add methods:~~
+    * add methods:
       * addFirst()
       * addLast()
-    ~~* remove methods:~~
+    * remove methods:
       * removeFirst()
       * removeLast()
 
