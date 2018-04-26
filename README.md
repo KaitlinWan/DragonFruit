@@ -25,9 +25,9 @@ Lab #2
       * removeLast()
 
 1. ~~Set up inner-container in and the implementing class itself~~
-1. Start implementing these methods one by one and testing.
-1. Check API to see if there are other specifications that need to be followed
-1. Throw Exceptions
+1. ~~Start implementing these methods one by one and testing.~~
+1. ~~Check API to see if there are other specifications that need to be followed
+1. ~~Throw Exceptions
 
 ## Development Plan
 
